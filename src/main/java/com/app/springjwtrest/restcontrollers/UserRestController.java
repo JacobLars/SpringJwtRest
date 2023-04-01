@@ -111,12 +111,4 @@ public class UserRestController {
         return ResponseEntity.accepted().body("Password has been changed!");
     }
 
-    public String checkPass(String password) {
-
-        if (password.isBlank()) {
-            return null;
-        }
-
-        return password;
-    }
 }
